@@ -1,0 +1,96 @@
+input.piryx-authenticate {
+	width: 148px;
+	height: 34px;
+	background: url(../images/login_btn_lg.png) no-repeat;
+	border: 0;
+	margin: 0;
+}
+#piryx-donation-form ul {
+	list-style-type: none;
+}
+span.req {
+	display: inline-block;
+	background: url("../images/icon-required.png");
+	font-size: 1px;
+	height: 9px;
+	margin: 0 0 0 3px;
+	text-indent: -999em;
+	vertical-align: middle;
+	width: 10px;
+}
+ul.card-type li {
+	float: left;
+	list-style: none outside none;
+	margin-right: 8px;
+}
+.card-type input {
+	float: left;
+	margin: 3px 4px 0 0;
+}
+.card-type span {
+	background-image: url('../images/payment-methods.gif');
+	display: block;
+	float: left;
+	height: 23px;
+	text-indent: -9999em;
+	width: 37px;
+}
+.card-type #pt-visa {
+	background-position: -37px 0;
+}
+.card-type #pt-mastercard {
+	background-position: -74px 0;
+}
+.card-type #pt-amex {
+	background-position: -111px 0;
+}
+.card-type #pt-discover {
+	background-position: -148px 0;
+}
+#echeck-info {
+	clear: left;
+}
+#echeck-info .routing-number, #echeck-info .account-number {
+	float: left;
+	margin-right: 1px;
+}
+#echeck-info li, #cc-info li {
+	list-style: none outside none;
+	margin-bottom: 6px;
+}
+#echeck-info .routing-number input, #echeck-info .account-number input {
+	margin: 0;
+	width: 147px;
+}
+#echeck-info .help, #cc-info {
+	clear: left;
+}
+#echeck-info li, #cc-info li {
+	list-style: none outside none;
+	margin-bottom: 6px;
+}
+#billing-information .same label {
+	text-transform: uppercase;
+}
+#piryx-donation-form  button {
+	background: none;
+	border: 0;
+	margin: 0; padding: 0;
+}
+.entry-content input, #piryx-donation-form input, .entry-content select, #piryx-donation-form select {
+	margin-bottom: 5px;
+}
+input.error, select.error {
+	background-color: #FFEDED;
+	border: 1px solid #DA0F0F;
+}
+div.error-message {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.success {
+	background-color: #FFFFE0;
+	border-color: ##E6DB55;
+	padding: 5px;
+}

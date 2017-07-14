@@ -1,0 +1,227 @@
+input.piryx-authenticate {
+	width: 148px;
+	height: 34px;
+	background: url(../images/login_btn_lg.png) no-repeat;
+	border: 0;
+	margin: 0;
+}
+#piryx-donation-form ul {
+	list-style-type: none;
+	margin:10px;
+}
+#piryx-donation-form li {
+	clear:both;
+	padding-right:15px;
+}
+#piryx-donation-form .month {
+	padding-right:15px;
+}
+#piryx-donation-form .month label, #piryx-donation-form .year label {
+	padding-right: 10px;
+}
+#piryx-donation-form .first-name,
+#piryx-donation-form .middle-name,
+#piryx-donation-form .last-name,
+#piryx-donation-form .address1,
+#piryx-donation-form .address2,
+#piryx-donation-form .city,
+#piryx-donation-form .state,
+#piryx-donation-form .zip,
+#piryx-donation-form .phone,
+#piryx-donation-form .work-phone,
+#piryx-donation-form .fax-phone,
+#piryx-donation-form .mobile-phone,
+#piryx-donation-form .employer,
+#piryx-donation-form .occupation,
+#piryx-donation-form .account-number,
+#piryx-donation-form .card-number,
+#piryx-donation-form .cvv2,
+#piryx-donation-form .month,
+#piryx-donation-form .year,
+#piryx-donation-form ul.card-type li {
+	float:left;
+	clear:none;
+}
+#piryx-donation-form .state {
+	width:auto;
+}
+#piryx-donation-form .phone,
+#piryx-donation-form .expiration,
+#piryx-donation-form .city {
+	clear:both;
+}
+#piryx-donation-form #echeck-info {
+	padding-top:15px;
+}
+
+#employment-information, #amount, #sharecare-information, #payment-information, #billing-information, #legal-compliance, #echeck-info, #cc-info, #piryx-donation-form .help, #piryx-donation-form .expiration {
+	clear:both;
+	padding-top: 15px;
+}
+#amount ul {
+	color: #7B7B7B;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0;
+	border: 1px solid #C7C7C7;
+	background: #eee;
+	padding: 8px 14px;
+	overflow:hidden;
+}
+#amount ul li {
+	padding: 8px;
+	color: #7B7B7B;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0px;
+	width:100px;
+	float:left;
+	clear:none;
+}
+#amount li {
+	list-style: none;
+	line-height: 25px;
+	font-size: 14px;
+}
+#amount ul span.amount {
+	margin: 0;
+	color: #081B45;
+	font-size: 17px;
+	font-weight: bold;
+}
+#amount ul .other #customAmount {
+	position:relative;
+	top: 0;
+	left:0;
+	float:none;
+	margin:0 0 0 5px;
+	width: 40px;
+}
+#amount li * {
+	vertical-align: middle;
+}
+#piryx-donation-form #amount input,
+#piryx-donation-form #payment-information input {
+	float:left;
+	position:relative;
+	top: 7px;
+	margin: 2px 8px 0 0;
+}
+#piryx-donation-form #payment-information input {
+	top: 4px;
+}
+#piryx-donation-form input, #piryx-donation-form select, #piryx-donation-form textarea {
+	padding: 4px;
+	border: 1px solid #D4D4D4;
+	color: #626262;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 2px 0px;
+	line-height: 18px;
+}
+#piryx-donation-form.clear {
+	clear:both;
+}
+.buttons {
+	clear:both;
+	padding:20px 10px;
+}
+
+span.req {
+	display: inline-block;
+	background: url("../images/icon-required.png");
+	font-size: 1px;
+	height: 9px;
+	margin: 0 0 0 3px;
+	text-indent: -999em;
+	vertical-align: middle;
+	width: 10px;
+}
+ul.card-type li {
+	float: left;
+	list-style: none outside none;
+	margin-right: 8px;
+}
+.card-type input {
+	float: left;
+	margin: 3px 4px 0 0;
+}
+.card-type span {
+	background-image: url('../images/payment-methods.gif');
+	display: block;
+	float: left;
+	height: 23px;
+	text-indent: -9999em;
+	width: 37px;
+}
+.card-type #pt-visa {
+	background-position: -37px 0;
+}
+.card-type #pt-mastercard {
+	background-position: -74px 0;
+}
+.card-type #pt-amex {
+	background-position: -111px 0;
+}
+.card-type #pt-discover {
+	background-position: -148px 0;
+}
+#echeck-info {
+	clear: left;
+}
+#echeck-info .routing-number, #echeck-info .account-number {
+	float: left;
+	margin-right: 1px;
+}
+#echeck-info li, #cc-info li {
+	list-style: none outside none;
+	margin-bottom: 6px;
+}
+#echeck-info .routing-number input, #echeck-info .account-number input {
+	margin: 0;
+	width: 147px;
+}
+#echeck-info .help, #cc-info {
+	clear: left;
+}
+#echeck-info li, #cc-info li {
+	list-style: none outside none;
+	margin-bottom: 6px;
+}
+#billing-information .same label {
+	text-transform: uppercase;
+}
+#piryx-donation-form  button {
+	background: none;
+	border: 0;
+	margin: 0; padding: 0;
+}
+.entry-content input, #piryx-donation-form input, .entry-content select, #piryx-donation-form select {
+	margin-bottom: 5px;
+}
+input.error, select.error {
+	background-color: #FFEDED;
+	border: 1px solid #DA0F0F;
+}
+
+#legal-compliance ul {
+	list-style: circle;
+}
+#legal-compliance .text {
+	padding-left: 30px;
+	font-size: 12px;
+}
+
+div.error-message {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.success {
+	background-color: #FFFFE0;
+	border-color: ##E6DB55;
+	padding: 5px;
+}
